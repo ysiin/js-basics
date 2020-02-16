@@ -6,6 +6,15 @@
 jika tidak menemukan indexnya return -1
 */
 
-search([1, 5, 3], 5) // 1
-search([9, 8, 3], 3) // 2
-search([1, 2, 3], 4) // -1
+function findIndex(nums, num) {
+    for (i = 0; i < nums.length; i++) {
+        if (nums[i] === num) {
+            return i
+        }
+    }
+    return -1
+}
+
+console.log(findIndex([1, 5, 3], 5))// 1
+console.log(findIndex([9, 8, 3], 3))// 2
+console.log(findIndex([1, 2, 3], 4))// -1
