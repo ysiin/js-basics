@@ -1,10 +1,11 @@
 // 2. dibawah ini adalah function untuk mencari kuadrat dari sebuah bilangan.
 // kamu diminta untuk "fixing bugs" dari code dibawah ini.
-function squaed(b) {
-	return $a*$a;
+function squared(b) {
+	return b * b
 }
 
 
-squared(5) // 25
-squared(9) // 81
-squared(100) // 10000
+
+console.log(squared(5)) // 25
+console.log(squared(9)) // 81
+console.log(squared(100)) // 10000
