@@ -3,9 +3,9 @@
 function removeVowels(str) {
 	// expecto patronum!
 	var strTemp = '';
-	str.toLowerCase();
+	var res = str.toLowerCase();
 	for (let i = 0; i < str.length; i++) {
-		if (str[i] === 'a' || str[i] === 'i' || str[i] === 'u' || str[i] === 'e' || str[i] === 'o') {
+		if (res[i] === 'a' || res[i] === 'i' || res[i] === 'u' || res[i] === 'e' || res[i] === 'o') {
 			continue
 		} else {
 			strTemp += str[i]
