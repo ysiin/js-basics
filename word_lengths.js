@@ -2,11 +2,11 @@
 //dan mengubahnya menjadi array of panjang kata tersebut 
 
 function wordLengths(arr) {
+    var result = [];
     for (let i = 0; i < arr.length; i++) {
-        if (i < arr[i].length) {
-            return arr[i].length
-        }
+        result.push(arr[i].length)
     }
+    return result
 }
 
 // TIPS:
